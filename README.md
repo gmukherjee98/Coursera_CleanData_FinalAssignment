@@ -1,5 +1,9 @@
 # Coursera_CleanData_FinalAssignment
-The script does the follows
+This dosument does the following
+I - brief description of the R script submitted for the assignment
+II - an outline of the files that are the code book for the assignment
+
+I: The script does the follows
 1. Creates the combined data set in the following steps
 a) Creates the unique column names from the features.txt file - these are the column names for the main data files X_train and X_test
 b) Creates the columns names for the activity_labels.txt
@@ -15,5 +19,8 @@ e) Creates combined train and test data usuing the rbind function
 
 5) creates a new database that for each subject and for each of the activity, provides the mean for each variable using the dplyr library
 
-
+II - Code book consists of the following
+1. activity_labels.txt which has the long name for each activity
+2. features_info.txt - which provides a description of the variables
+3. features.txt - the list of all the variables
 
